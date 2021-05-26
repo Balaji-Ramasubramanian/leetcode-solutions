@@ -1,5 +1,14 @@
 // Problem URL: https://leetcode.com/problems/first-missing-positive/
 
+// Algorithm:
+/*
+Step1: Sort the given array
+Step2: Initialize an integer j to trace the positive numbers
+Step3: Iterator through the array 
+        If the array element is positive and greater the j, return j
+        Else if the number is positive, increase j
+*/
+
 class FirstMissingPositive {
     public int firstMissingPositive(int[] nums) {
         Arrays.sort(nums);
