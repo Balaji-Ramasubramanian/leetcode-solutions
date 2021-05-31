@@ -1,4 +1,4 @@
-// Problem URL: https://leetcode.com/problems/kth-largest-element-in-an-array/submissions/
+// Problem URL: https://leetcode.com/problems/kth-largest-element-in-an-array/
 
 /*
 Algorithm:
